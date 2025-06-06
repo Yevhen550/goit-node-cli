@@ -13,6 +13,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^14.0.0",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   },
