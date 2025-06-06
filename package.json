@@ -2,8 +2,11 @@
   "name": "goit-node-cli",
   "version": "1.0.0",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main",
+    "dev": "nodemon main"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +15,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
   }
 }
